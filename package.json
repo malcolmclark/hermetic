@@ -1,0 +1,24 @@
+{
+  "name": "hermetic",
+  "version": "1.0.0",
+  "description": "Chat App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malcolmclark/hermetic.git"
+  },
+  "author": "Malcolm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/malcolmclark/hermetic/issues"
+  },
+  "homepage": "https://github.com/malcolmclark/hermetic#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.1"
+  }
+}
