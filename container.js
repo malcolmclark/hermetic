@@ -2,7 +2,8 @@ const dependable = require("dependable")
 const path = require("path") // inbuiñt module so no need to install it
 const container = dependable.container()
 const simpleDependencies = [
-    ['_', 'lodash']
+    ['_', 'lodash'],
+    ['passport', 'passport']
 ]
 
 
