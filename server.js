@@ -72,7 +72,7 @@ container.resolve(function(users, _) {
         // needs to go here before session, to work properly 
         app.use(passport.initialize())
         app.use(passport.session())
-app.locals._ = _
+        app.locals._ = _
     }
 
 })
